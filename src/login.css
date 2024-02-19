@@ -1,0 +1,106 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7ee;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.head-ing {
+  font-size: 54px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+}
+
+/* Login styles */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  color: #333;
+}
+
+.login-form input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-form button {
+  padding: 12px 20px;
+  margin-top: 20px;
+  background-color: #c700ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #c700ff;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Registration link */
+.registration-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.registration-link a {
+  color: blue;
+  text-decoration: none;
+}
+
+.registration-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .login-container {
+    max-width: 90%;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
